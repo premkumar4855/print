@@ -1,0 +1,20 @@
+@media print {
+
+  h2 {
+    color: blue;
+  }
+  a {
+    display: none;
+  }
+  @page :left {
+    margin-left: 15cm !important;
+  }
+  
+  @page :right {
+    margin-left: 3cm !important;
+  }
+}
+
+
+
+

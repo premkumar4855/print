@@ -1,0 +1,24 @@
+/* @import './shared/css-syntax2.css'; */
+@media print {
+
+    h2 {
+      color: blue;
+    }
+    a {
+      display: none;
+    }
+
+  }
+  :left {
+    margin-left: 15cm;
+}
+  
+  @page :left { 
+    margin-left: 15cm;
+  }
+  
+  @page :right {
+    margin-left: 3cm;
+  }
+  
+  
